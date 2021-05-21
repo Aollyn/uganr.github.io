@@ -121,7 +121,6 @@ table {
 .info .logo {
     width: 150px;
     margin-top: 60px;
-    margin-bottom: 65px;
 }
 
 .videoPreview {
@@ -177,7 +176,6 @@ table {
     }
 
     .info .logo {
-        margin-top: 50px;
         width: 150px;
         float: left;
         clear: both;
