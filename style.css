@@ -100,9 +100,14 @@ table {
     background-size: 25px 25px;    
 }
 
+.header a.xiaohongshu {
+    background: url(./xiaohongshu.png)center no-repeat;
+    background-size: 25px 25px;    
+}
+
 .info {
     text-align: center;
-    padding: 170px 0;
+    padding: 100px 0;
 }
 
 .info .icon {
@@ -117,20 +122,6 @@ table {
     width: 150px;
     margin-top: 60px;
     margin-bottom: 65px;
-}
-
-.info .content {
-    margin: auto;
-    width: 165px;
-    height: 66px;
-    background: url(./play.png)center no-repeat;
-    background-size: cover;
-    text-indent: -10000px;
-}
-
-.info .content a {  
-    height: 60px;
-    display: block;
 }
 
 .videoPreview {
@@ -177,6 +168,7 @@ table {
 
     .info {
         float: left;
+        padding: 200px 0;
     }
     
     .info .icon {
