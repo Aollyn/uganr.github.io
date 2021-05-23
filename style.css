@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1.5;
-    font-family: sans-serif;
+    font-family: SF Pro SC,-apple-system,-apple-system-font,Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
     font-size: 100%;
     background: #F5F5F5;
 }
@@ -85,6 +85,11 @@ table {
     float: left;
 }
 
+.header a.main {
+    background: url(./main.png)center no-repeat;
+    background-size: 25px 25px;    
+}
+
 .header a.bilibili {
     background: url(./bilibili.png)center no-repeat;
     background-size: 25px 25px;    
@@ -136,7 +141,6 @@ table {
 }
 
 .content h2 {
-    font-family: SF Pro SC,-apple-system,-apple-system-font,Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
     font-size: 2.66666em;
     letter-spacing: -.03em;
     font-weight: 700;
@@ -150,7 +154,6 @@ table {
 }
 
 .content p {
-    font-family: SF Pro SC,-apple-system,-apple-system-font,Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: .823em;
