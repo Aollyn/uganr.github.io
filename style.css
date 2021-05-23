@@ -85,8 +85,8 @@ table {
     float: left;
 }
 
-.header a.main {
-    background: url(./main.png)center no-repeat;
+.header a.home {
+    background: url(./home.png)center no-repeat;
     background-size: 25px 25px;    
 }
 
