@@ -89,12 +89,7 @@ table {
     background: url(./home.png)center no-repeat;
     background-size: 25px 25px;    
 }
-
-.header a.bilibili {
-    background: url(./bilibili.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-    
+   
 .header a.weibo {
     background: url(./weibo.png)center no-repeat;
     background-size: 25px 25px;    
@@ -107,6 +102,11 @@ table {
 
 .header a.xiaohongshu {
     background: url(./xiaohongshu.png)center no-repeat;
+    background-size: 25px 25px;    
+}
+
+.header a.bilibili {
+    background: url(./bilibili.png)center no-repeat;
     background-size: 25px 25px;    
 }
 
