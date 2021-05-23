@@ -135,6 +135,34 @@ table {
     float: none;
 }
 
+.content h2 {
+    font-family: SF Pro SC,-apple-system,-apple-system-font,Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
+    font-size: 2.66666em;
+    letter-spacing: -.03em;
+    font-weight: 700;
+    margin: 0;
+    white-space: pre-line;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.content p {
+    font-family: SF Pro SC,-apple-system,-apple-system-font,Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: .823em;
+    margin-top: 0;
+    white-space: pre-line;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .footer {
     text-align: center;
     padding: 20px 0;
