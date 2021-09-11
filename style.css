@@ -249,6 +249,7 @@ table {
         display: block;
         width: 700px;
         margin: 150px 0;
+        padding: 0;
         position: relative;
         float: right;
     }
