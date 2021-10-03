@@ -100,11 +100,6 @@ table {
     background-size: 25px 25px;    
 }
 
-.header a.xiaohongshu {
-    background: url(./xiaohongshu.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-
 .header a.bilibili {
     background: url(./bilibili.png)center no-repeat;
     background-size: 25px 25px;    
@@ -112,7 +107,7 @@ table {
 
 .info {
     text-align: center;
-    padding: 70px 0 0 0;
+    padding: 100px 0 70px 0;
 }
 
 .info .icon {
