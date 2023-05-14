@@ -1,2 +1,2 @@
 # uganr.github.io
-顔修門独立博客网站，https://www.uganr.com
+顔哶独立博客网站，http://www.uganr.com
