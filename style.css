@@ -103,7 +103,7 @@ table {
 .info .icon {
     width: 166px;
     height: 166px;
-    background: url(./favicon.png)center no-repeat;
+    background: url(./favicon.jpg)center no-repeat;
     background-size: 166px 166px;    
     margin: auto;
 }
