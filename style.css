@@ -90,18 +90,8 @@ table {
     background-size: 25px 25px;    
 }
    
-.header a.weibo {
-    background: url(./weibo.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-    
-.header a.zhihu {
-    background: url(./zhihu.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-
-.header a.bilibili {
-    background: url(./bilibili.png)center no-repeat;
+.header a.blog {
+    background: url(./content.png)center no-repeat;
     background-size: 25px 25px;    
 }
 
