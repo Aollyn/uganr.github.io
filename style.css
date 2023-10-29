@@ -206,7 +206,7 @@ p {
 
 .header-left a.blog {
     background: url(./icon-blog.png)center no-repeat;
-    background-size: 25px 25px;    
+    background-size: 20px 20px;    
 }
 
 .header-left a.vlog {
@@ -233,7 +233,7 @@ p {
     height: 50px;
     margin-left: 30px;
     line-height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     opacity: 0.95;
     -webkit-transition: color 0.3s linear;
@@ -453,8 +453,7 @@ p {
 	transition: all .4s ease-in-out;
 }
 .content-blog p {
-	margin: 0 0 1.5rem;
-	padding: 0 0.5rem;
+	margin: 0 0 1rem;
 }
 .work-skills-content {
 	
@@ -490,7 +489,7 @@ p {
 .footer {
     text-align: center;
     padding: 15px 0;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .footer .links {
