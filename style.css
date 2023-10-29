@@ -171,7 +171,6 @@ p {
     padding: 15px;
     display: block;
     overflow: hidden;
-    box-shadow: 0 10px 20px 0 rgb(6 11 26 / 5%);
     -webkit-backdrop-filter: saturate(180%) blur(6px);
     backdrop-filter: saturate(180%) blur(6px);
 	background-color: #fff;
