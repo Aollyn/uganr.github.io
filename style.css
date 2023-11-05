@@ -491,6 +491,7 @@ p {
 }
 
 .footer .links {
+    float: left;
     margin: 15px 0;
 }
 
@@ -503,6 +504,7 @@ p {
 }
 
 .footer .copyright {
+    float: right;
     margin: 15px 0;
     color: #999;
 }
@@ -544,12 +546,5 @@ p {
         left: 60px;
         top: 15px;
     }
-    
-    .footer .links {
-        float: left;
-    }
 
-    .footer .copyright {
-        float: right;
-    }
 }
