@@ -248,9 +248,7 @@ p {
 .nav-chapter {
 	background: #fff;
 	margin-top: 5px;
-	padding: 0;
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding: 10px 0;
 	text-align: center;
 	overflow: hidden;
 }
@@ -258,12 +256,12 @@ p {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 .nav-chapter-icon {
-	width: 25px;
-	height: 25px;
-	background-size: 25px 25px;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	opacity: 0.8;
 	transition: all 0.5s;
@@ -284,7 +282,7 @@ p {
 	background-image: url(./chapternav-icon-05.png);
 }
 .nav-chapter-items:hover .nav-chapter-icon {
-	background-size: 30px 30px;
+	background-size: 42px 42px;
 }
 .nav-chapter-label {
 	font-size: 12px;
