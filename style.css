@@ -261,9 +261,9 @@ p {
 	padding: 0 20px;
 }
 .nav-chapter-icon {
-	width: 55px;
-	height: 55px;
-	background-size: 50px 50px;
+	width: 25px;
+	height: 25px;
+	background-size: 25px 25px;
 	background-repeat: no-repeat;
 	opacity: 0.8;
 	transition: all 0.5s;
@@ -284,7 +284,7 @@ p {
 	background-image: url(./chapternav-icon-05.png);
 }
 .nav-chapter-items:hover .nav-chapter-icon {
-	background-size: 55px 55px;
+	background-size: 30px 30px;
 }
 .nav-chapter-label {
 	font-size: 12px;
@@ -295,8 +295,7 @@ p {
 	margin: 0;
 }
 .nav-text {
-	padding-top: .94118em;
-	padding-bottom: .94118em;
+	padding: 15px;
 	animation: ribbon-drop 0.8s cubic-bezier(0.42, 0, 0.58, 1) forwards;
 	background-color: #f5f5f7;
 }
@@ -390,7 +389,7 @@ p {
 	border-radius: inherit;
 }
 .content-list-item-media div{
-	background-size: 100% 100% !important;
+    background-size: 100% 100% !important;
     width: 130px;
     height: 130px;
 }
@@ -404,7 +403,7 @@ p {
 	overflow: hidden;
 }
 .content-list-item-text p {
-	font-size: 16px;
+    font-size: 16px;
     line-height: 1.5em;
     margin-bottom: .823em;
     margin-top: 0;
@@ -509,7 +508,6 @@ p {
 }
 
 @media screen and (min-width:960px) {
-    
     .wrapper {
         max-width: 960px;
         margin: auto;
@@ -520,7 +518,6 @@ p {
     .info {
         float: left;
     }
-
     .info .content {
         float: left;
         clear: both;
@@ -536,7 +533,6 @@ p {
         background: url(./index.png)center no-repeat;
         background-size: cover;
     }
-
     .videoPreview video {
         display: block;
         position: absolute;
@@ -550,4 +546,15 @@ p {
         height: 400px;	
     }
 
+    .nav-chapter-icon {
+	width: 55px;
+	height: 55px;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	transition: all 0.5s;
+    }
+    .nav-chapter-items:hover .nav-chapter-icon {
+	background-size: 55px 55px;
+    }
 }
