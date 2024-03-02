@@ -1,13 +1,12 @@
 /* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
-html::-webkit-scrollbar , body::-webkit-scrollbar , div::-webkit-scrollbar {
-  display: none;
+	html::-webkit-scrollbar , body::-webkit-scrollbar , div::-webkit-scrollbar {
+	display: none;
 }
 /* 隐藏 IE、Edge 和 Firefox 的滚动条 */
 html, body, div {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,47 +20,39 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+	display: block;
 }
-
 body {
-    line-height: 1.5;
-    font-family: Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
-    font-size: 100%;
+	line-height: 1.5;
+	font-family: Helvetica Neue,Helvetica,Verdana,Arial,sans-serif;
+	font-size: 100%;
 }
-
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
-
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
-
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
-
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
 h1 {
 	font-size: 36px;
 	color: #2a2e2e;
@@ -69,12 +60,12 @@ h1 {
 	text-align: left;
 	line-height: 44px;
 	font-weight: 700;
-    margin: 0;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+	margin: 0;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 h2 {
 	font-size: 32px;
@@ -126,11 +117,11 @@ h5 {
 	line-height: 28px;
 	font-weight: 400;
 	margin: 0;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 h6 {
 	font-size: 18px;
@@ -160,136 +151,51 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
-
 .wrapper a {
-    color: #ff2e4e;
+	color: #ff2e4e;
 }
-
 .header {
-    padding: 15px;
-    margin-bottom: 1px;
-    display: block;
-    overflow: hidden;
-    box-shadow: 0 1px 2px 0 rgb(6 11 26 / 5%);
-    -webkit-backdrop-filter: saturate(180%) blur(6px);
-    backdrop-filter: saturate(180%) blur(6px);
+	padding: 15px;
+	margin-bottom: 1px;
+	display: block;
+	overflow: hidden;
+	box-shadow: 0 1px 2px 0 rgb(6 11 26 / 5%);
+	-webkit-backdrop-filter: saturate(180%) blur(6px);
+	backdrop-filter: saturate(180%) blur(6px);
 }
-
 .header-left{
-    display: block;
+	display: block;
 	float: left;
 	text-align: left;
 }
-
 .header-left ul li{
-    display: inline-block;
-}
-	
-.header-left a {
-    display: block;
-    width: 30px;
-    text-indent: -10000px;
-    line-height: 50px;
-    margin-right: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    opacity: 0.95;
-    transition: all 0.3s;
-}
-
-.header-left a.home {
-    background: url(./icon-home.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-
-.header-left a.blog {
-    background: url(./icon-blog.png)center no-repeat;
-    background-size: 20px 20px;    
-}
-
-.header-left a.vlog {
-    background: url(./icon-vlog.png)center no-repeat;
-    background-size: 25px 25px;    
-}
-
-.header-left a:hover {
-    background-size: 30px 30px;    
-}
-
-.header-right{
-	display: block;
-	float: right;
-    text-align: right;
-}
-
-.header-right ul li{
-    display: inline-block;
-}
-
-.header-right a {
-    display: block;
-    height: 50px;
-    margin-left: 30px;
-    line-height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    opacity: 0.95;
-    -webkit-transition: color 0.3s linear;
-}
-
-.header-right a:link, .header-right a:visited {
-    color: #999;
-}
-
-.header-right a:hover {
-    color: #FF2E4E;
-}
-.nav-chapter {
-	background: #fff;
-	margin-top: 5px;
-	padding: 10px 0;
-	text-align: center;
-	overflow: hidden;
-}
-.nav-chapter-items{
 	display: inline-block;
-	vertical-align: top;
-	margin: 0;
-	padding: 0 10px;
-}
-.nav-chapter-icon {
-	width: 40px;
-	height: 40px;
-	background-size: 40px 40px;
-	background-repeat: no-repeat;
-	opacity: 0.8;
-	transition: all 0.5s;
-}
-.nav-chapter-icon-01 {
-	background-image: url(./chapternav-icon-01.png);
-}
-.nav-chapter-icon-02 {
-	background-image: url(./chapternav-icon-02.png);
-}
-.nav-chapter-icon-03 {
-	background-image: url(./chapternav-icon-03.png);
-}
-.nav-chapter-icon-04 {
-	background-image: url(./chapternav-icon-04.png);
-}
-.nav-chapter-icon-05 {
-	background-image: url(./chapternav-icon-05.png);
-}
-.nav-chapter-items:hover .nav-chapter-icon {
-	background-size: 42px 42px;
-}
-.nav-chapter-label {
-	font-size: 12px;
-	line-height: 1.5rem;
-	font-weight: 400;
-	letter-spacing: 0;
+}	
+.header-left a {
 	display: block;
-	margin: 0;
+	width: 30px;
+	text-indent: -10000px;
+	line-height: 50px;
+	margin-right: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: 0.95;
+	transition: all 0.3s;
+}
+.header-left a.home {
+	background: url(./icon-home.png)center no-repeat;
+	background-size: 25px 25px;    
+}
+.header-left a.blog {
+	background: url(./icon-blog.png)center no-repeat;
+	background-size: 20px 20px;    
+}
+.header-left a.vlog {
+	background: url(./icon-vlog.png)center no-repeat;
+ 	background-size: 25px 25px;    
+}
+.header-left a:hover {
+	background-size: 30px 30px;    
 }
 .nav-text {
 	padding: 15px;
@@ -319,11 +225,9 @@ p {
     backdrop-filter: saturate(180%) blur(6px);
     background-color: #fff;
 }
-
 .info {
     padding: 100px 0;
 }
-
 .info .icon {
     width: 150px;
     height: 150px;
@@ -335,12 +239,10 @@ p {
     box-shadow: 6px 6px 15px 0 rgb(136 167 225 / 10%), -6px -6px 15px 0 #fff;
     transition: all 0.2s;
 }
-
 .info .icon:hover {
 	background-size: 160px 160px;
 	box-shadow: 10px 10px 20px 0 rgb(136 167 225 / 15%), -6px -6px 15px 0 #fff;
 }
-
 .info p {
 	text-align: center;
 	font-size: 24px;
@@ -350,15 +252,12 @@ p {
 	margin: 15px 0;
 	transition: all 0.2s;
 }
-
 .info p:hover {
 	font-size: 25px;
 }
-
 .videoPreview {
     display: none;
 }
-
 .content-list-item {
 	flex-direction: row;
 	margin-bottom: 1rem;
@@ -448,61 +347,25 @@ p {
 .content-blog p {
 	margin: 0 0 1rem;
 }
-.work-skills-content {
-	
-}
-.work-skills-text-box {
-	margin-left: 55px;
-	font-style: italic;
-}
-.work-skills-card-box {
-
-}
-.work-skills-card-box-content {
-	display: inline-block;
-	width: 25%;
-	padding: 15px;
-	margin: 0 5px;
-	word-wrap: break-word;
-	border: 2px solid #fff;
-	border-radius: 20px;
-	background-image: linear-gradient(0deg, #fff, #f4f4f5);
-	box-shadow: 8px 8px 20px 0 rgb(240 240 240 / 80%), -8px -8px 20px 0 #fff;
-}
-.work-skills-card-box-img {
-
-}
-.work-skills-card-box-img img {
-	width: 100%;
-}
-.work-skills-card-box-p {
-	
-}
-
 .footer {
     padding: 15px;
     font-size: 12px;
 }
-
 .footer .links {
     float: left;
     margin: 15px 0;
 }
-
 .footer a:link, .footer a:visited {
     color: #999;
 }
-
 .footer a:hover {
     color: #FF2E4E;
 }
-
 .footer .copyright {
     float: right;
     margin: 15px 0;
     color: #999;
 }
-
 @media screen and (min-width:960px) {
     .wrapper {
         max-width: 960px;
@@ -510,7 +373,6 @@ p {
         padding: 0 20px;
         overflow: auto;
     }
-
     .info {
         float: left;
     }
@@ -518,7 +380,6 @@ p {
         float: left;
         clear: both;
     }
-    
     .videoPreview {
         position: relative;
         float: right;
@@ -536,21 +397,5 @@ p {
         height: 300px;
         left: 60px;
         top: 15px;
-    }
-    .caption-img div{
-        width: 100%;
-        height: 400px;	
-    }
-
-    .nav-chapter-icon {
-	width: 55px;
-	height: 55px;
-	background-size: 50px 50px;
-	background-repeat: no-repeat;
-	opacity: 0.8;
-	transition: all 0.5s;
-    }
-    .nav-chapter-items:hover .nav-chapter-icon {
-	background-size: 55px 55px;
     }
 }
